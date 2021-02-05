@@ -1,46 +1,46 @@
 ---
-title: Présentation de la Todo List du Blog
+title: PrÃ©sentation de la Todo List du Blog
 description: description
 date: "2021-02-05"
 image: "todo.webp"
 author: "Maxime"
-tags: ["blog", "todo"]
+tags: ["todo"]
 ---
 
 ## Git
 
-Tutorielles sur la mise en place d'un dépot Git
+Tutorielles sur la mise en place d'un dÃ©pot Git
 
 Les tutoriels qui seront mis en place :
 
-- Présentation d'Heroku
-- Création d'un dépots git
+- PrÃ©sentation d'Heroku
+- CrÃ©ation d'un dÃ©pots git
 
 ## Gatsby
 
-tutorielles sur la création et la configuration d'un site avec Gatsby
+tutorielles sur la crÃ©ation et la configuration d'un site avec Gatsby
 
-- Présentation de Gatsby
+- PrÃ©sentation de Gatsby
 
 ## Heroku
 
-tutorielles sur le déploiement du site sur la plateforme Heroku :
+tutorielles sur le dÃ©ploiement du site sur la plateforme Heroku :
 
-- Présentation d'Heroku
-- Création d'un compte Heroku
+- PrÃ©sentation d'Heroku
+- CrÃ©ation d'un compte Heroku
 - Initialisation d'un projet sur Herku
 - Installation de l'outils Heroku CLI
 - Configuration de Heroku sur Gatsby
-- Déploiement de Gatsby sur Heroku
+- DÃ©ploiement de Gatsby sur Heroku
 
 ## Flexyform
 
-tutorielles sur la création d'un formulaire avec Flexyform
+tutorielles sur la crÃ©ation d'un formulaire avec Flexyform
 
-- Présentation de Flexyform
+- PrÃ©sentation de Flexyform
 
 ## Gitalk
 
-tutorielles sur la création d'un systeme de commentaires avecc Gitalk
+tutorielles sur la crÃ©ation d'un systeme de commentaires avecc Gitalk
 
-- Présentation de Gitalk
+- PrÃ©sentation de Gitalk
