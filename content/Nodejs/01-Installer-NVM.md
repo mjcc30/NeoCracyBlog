@@ -15,13 +15,13 @@ Si vous êtes sur linux vous aurez besoin de `curl`
 sudo apt install curl
 ```
 
-Les commandes suivantes vont automatiquement instaler nvm avec `curl`
+Les commandes suivantes vont automatiquement installer nvm avec `curl`
 
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
-## Etape 2: Vérifier l'instalation
+## Etape 2: Vérifier l'installation
 
 ```
 nvm --version
@@ -35,7 +35,7 @@ On lance la commande suivante
 nvm install --lts
 ```
 
-Ensuite nous pouvons activer la version choisis
+Ensuite nous pouvons activer la version choisie
 
 ```
 nvm use --lts
@@ -57,7 +57,7 @@ nvm use node
 
 ## Export de nvm dans le shell
 
-Si vous uttilisez zsh remplacer `.bashrc par .zshrc`
+Si vous utilisez zsh remplacer `.bashrc par .zshrc`
 
 Les deux premieres lignes ajoutent nvm au fichier `.bashrc`
 
@@ -65,8 +65,8 @@ La troisième ligne permet l'autocompletion avec nvm
 
 ```
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 ```
 
 ## Passer de la version LTS à la dernière version
