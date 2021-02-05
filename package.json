@@ -1,8 +1,12 @@
 {
   "name": "neocracy_blog",
+  "version": "1.0.0",
   "private": true,
   "description": "Un simple blog sur neocracy",
-  "version": "2.0.0",
+  "engines": {
+    "npm": "7.4.0",
+    "node": "15.6.0"
+  },
   "author": "Maxime Cordeiro <neocracy@gmail.com>",
   "dependencies": {
     "@loadable/component": "^5.13.1",
