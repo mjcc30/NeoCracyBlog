@@ -23,11 +23,11 @@ function BlogPost(props) {
       return (
         <GitalkComponent
           options={{
-            clientID: "Github Application clientID",
-            clientSecret: "Github Application clientSecret",
-            repo: "your repo-name",
-            owner: "Github username",
-            admin: ["Github username"],
+            clientID: "0f760ab0fd138bf276f1",
+            clientSecret: "c838baf25cc728f9caed8fa37d870ef77d1ff0b6",
+            repo: "NeoCracyBlog_comments",
+            owner: "mjcc30",
+            admin: ["mjcc30"],
             id: id,
             title: title,
             distractionFreeMode: false,
