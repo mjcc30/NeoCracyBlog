@@ -11,7 +11,7 @@ npm i -g gatsby-cli
 ## Clone the repo
 
 ```
-git clone https://github.com/e-gonzalez-ipssi/NeoCracy.git
+https://github.com/mjcc30/NeoCracyBlog.git
 ```
 
 ## Install dependencies
