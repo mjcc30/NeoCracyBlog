@@ -1,6 +1,8 @@
 # Tech Blog 🚀
 
-## Install Node
+## Installer Node.js
+
+L'installation de Gatsby nécessite d'avoir installé Node.js sur ça machine
 
 ## Install gatsby-cli
 
@@ -8,28 +10,29 @@
 npm i -g gatsby-cli
 ```
 
-## Clone the repo
+## Cloner le dépot git
 
 ```
 https://github.com/mjcc30/NeoCracyBlog.git
 ```
 
-## Install dependencies
+## Installer les dépendences
 
 ```
-cd NeoCracy/blog
+cd NeoCracyBlog
 
 npm i
 ```
 
-## Start development server
+## Lancement du server
 
 ```
 gatsby develop
 ```
 
-## Hosting
+## Hébergement
 
-## Content
+
+## Contenu
 
 Tous les fichiers markdown du blog peuvent être trouvés dans le dossier `content/`
