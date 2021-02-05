@@ -22,10 +22,16 @@ L'installation de Gatsby nécessite d'avoir installé Node.js sur ça machine
 
 Si vous êtes sur linux, je recommande l'installation de Node.js avec nvm, un tutoriel est disponible depuis [cette page](https://neocracyblog.herokuapp.com/Nodejs/01-Installer-NVM/)
 
-## Install gatsby-cli
+## Installer gatsby-cli
 
 ```
 npm i -g gatsby-cli
+```
+
+## Installer yarn (optionel)
+
+```
+npm i -g yarn
 ```
 
 ## Cloner le dépot git
@@ -36,10 +42,19 @@ https://github.com/mjcc30/NeoCracyBlog.git
 
 ## Installer les dépendences
 
+avec npm :
 ```
 cd NeoCracyBlog
 
 npm i
+```
+
+avec yarn :
+
+```
+cd NeoCracyBlog
+
+yarn
 ```
 
 ## Lancement du server
