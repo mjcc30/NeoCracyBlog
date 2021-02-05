@@ -4,8 +4,8 @@
   "private": true,
   "description": "Un simple blog sur neocracy",
   "engines": {
-    "npm": "7.4.0",
-    "node": "15.6.0"
+    "node": "14.15.4",
+    "npm": "6.14.10"
   },
   "author": "Maxime Cordeiro <neocracy@gmail.com>",
   "dependencies": {

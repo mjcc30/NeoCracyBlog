@@ -4,7 +4,7 @@ description: description
 date: "2021-02-05"
 image: "todo.webp"
 author: "Maxime"
-tags: ["todo"]
+tags: ["neocracy", "todo"]
 ---
 
 ## Neocracy

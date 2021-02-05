@@ -36,8 +36,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `tech-blog`,
-        short_name: `tech-blog`,
+        name: `neocracyblog`,
+        short_name: `neocracyblog`,
         start_url: `/`,
         background_color: `#1e2127`,
         theme_color: `#1e2127`,

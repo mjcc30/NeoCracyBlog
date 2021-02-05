@@ -39,10 +39,10 @@ const Header = () => {
       >
         <ul>
           <li>
-            <Link to={"/blog"}>Blog</Link>
+            <Link to={"/articles"}>Articles</Link>
           </li>
           <li>
-            <Link to={"/tags"}>Topics</Link>
+            <Link to={"/tags"}>Catégories</Link>
           </li>
           <li>
             <Link to={"/contact"}>Contact</Link>

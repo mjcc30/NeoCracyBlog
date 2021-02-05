@@ -49,7 +49,7 @@ exports.createPages = async ({ actions, graphql }) => {
     createPage,
     items: posts,
     itemsPerPage: 10,
-    pathPrefix: "/blog",
+    pathPrefix: "/articles",
     component: postList,
   })
 
