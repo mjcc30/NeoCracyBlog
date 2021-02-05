@@ -17,7 +17,7 @@ class ContactForm extends React.Component {
         method="post"
       >
         <div>
-          <label>Full name</label>
+          <label>Nom complet</label>
           <input type="text" name="fullname" />
         </div>
         <div>
@@ -31,8 +31,7 @@ class ContactForm extends React.Component {
         <ul style={buttonsStyle}>
           <li>
             <button type="submit" className="button special">
-              Send
-            </button>
+              Envoyer            </button>
           </li>
         </ul>
       </form>
