@@ -39,7 +39,6 @@ class ContactForm extends React.Component {
         <li>
             <button type="submit" className="button special">
               <FormattedMessage id="contact.submit" />
-              Envoyer
             </button>
         </li>
       </ul>
