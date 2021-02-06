@@ -79,11 +79,11 @@ Tous les fichiers markdown du blog peuvent être trouvés dans le dossier `conte
 JAMStack
 
 - Gatsby Static Site
-- Gatsby CMS
+- Graphql
 - Markdown Remark
 - Typescript (TODO)
-- Gatsby Image
-- Tailwindcss
+- Tailwindcss (TODO)
+- intl (TODO)
 
 ## Issue Board
 
