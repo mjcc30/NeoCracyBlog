@@ -9,15 +9,14 @@ tags: ["nodejs"]
 
 # Sommaire
 
-```
-toc
+```toc
 
 ```
 
 ## 1. Installer NVM
 
 
-Si vous Ãªtes sur linux vous aurez besoin de `curl`
+Si vous êtes sur linux vous aurez besoin de `curl`
 
 ```
 sudo apt install curl
@@ -46,7 +45,7 @@ Ensuite nous pouvons activer la version choisie
 nvm use --lts
 ```
 
-## 3. Pour installer la derniÃ¨re Node.js
+## 3. Pour installer la dernière Node.js
 
 On lance la commande suivante
 
@@ -65,7 +64,7 @@ Si vous utilisez zsh remplacer `.bashrc par .zshrc`
 
 Les deux premieres lignes ajoutent nvm au fichier `.bashrc`
 
-La troisiÃ¨me ligne permet l'autocompletion avec nvm
+La troisième ligne permet l'autocompletion avec nvm
 
 ```
 export NVM_DIR="$HOME/.nvm"
@@ -73,8 +72,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 ```
 
-## 5. Passer de la version LTS Ã  la derniÃ¨re version
+## 5. Passer de la version LTS à la dernière version
 
-Nous avons maintenant la derniÃ¨re version de Node.js ainsi que la version LTS (long term support) d'installer.
-€ý,€ý,
+Nous avons maintenant la dernière version de Node.js ainsi que la version LTS (long term support) d'installer.
 Nous pouvons changer de version en uttilisant la commande `nvm use`.
