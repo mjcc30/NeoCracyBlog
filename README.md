@@ -1,4 +1,4 @@
-[![Heroku](https://heroku-badge.herokuapp.com/?app=neocracyblog)°
+[![Heroku](https://heroku-badge.herokuapp.com/?app=neocracyblog)](https://dashboard.heroku.com/apps/neocracyblog/activity)
 
 # Blog 🚀
 
