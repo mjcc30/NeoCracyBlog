@@ -1,3 +1,5 @@
+[![Heroku](https://heroku-badge.herokuapp.com/?app=neocracyblog)]
+
 # Blog 🚀
 
 ## Description
@@ -71,3 +73,19 @@ L'hebergement du site à été réaliser avec heroku
 ## Contenu
 
 Tous les fichiers markdown du blog peuvent être trouvés dans le dossier `content/`
+
+## Stack
+
+JAMStack
+
+- Gatsby Static Site
+- Gatsby CMS
+- Markdown Remark
+- Typescript (TODO)
+- Gatsby Image
+- Tailwindcss
+
+## Issue Board
+
+[Trello Board](https://trello.com/b/pDZktFWO/neocracy)
+
