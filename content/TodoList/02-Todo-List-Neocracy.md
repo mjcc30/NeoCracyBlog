@@ -1,8 +1,8 @@
 ---
-title: Présentation de la Todo List du site Neocracy
+title: PrÃ©sentation de la Todo List du site Neocracy
 description: description
 date: "2021-02-05"
-image: "todo.webp"
+image: "cover.webp"
 author: "Maxime"
 tags: ["neocracy", "todo"]
 ---
