@@ -1,23 +1,29 @@
 import React from "react"
+import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Nvim from "../images/nvim.png"
-import ThisBlog from "../images/this-blog.png"
+
 import style from "./index.module.less"
+
+import Github from "../images/github.png"
+import ThisBlog from "../images/this-blog.png"
 import {
   FaGithub,
 } from "react-icons/fa"
 
-const IndexPage = () => {
+const IndexPage = ({ intl }) => {
   return (
     <Layout>
-      <h1 style={{ textAlign: "center", marginTop: "80px" }}>Le Blog de Neocracy</h1>
-      <SEO title="Home" keywords={["neocracy"]} />
+      <SEO title={intl.formatMessage({ id: "titleSEO" })} keywords={["neocracy"]} />
+      <h1 style={{ textAlign: "center", marginTop: "80px" }}>
+        <FormattedMessage id="title" />
+      </h1>
       <div className={style.card}>
         <div className={style.post}>
           <div className={style.content}>
             <span>
-              Présentation : Blog sur le site Neocracy 
+              <FormattedMessage id="description" /> 
             </span>
             <div className={style.list}>
               <ul>
@@ -43,7 +49,7 @@ const IndexPage = () => {
               rel="nofollow noopener noreferrer"
               href={"https://github.com/e-gonzalez-ipssi/NeoCracy"}
             >
-              <img src={Nvim} height="200px" width="200px" alt="nvim" />
+              <img src={Github} height="200px" width="200px" alt="nvim" />
             </a>
           </div>
           <div className={style.content}>
@@ -74,4 +80,5 @@ const IndexPage = () => {
     </Layout>
   )
 }
-export default IndexPage
+
+export default injectIntl(IndexPage)

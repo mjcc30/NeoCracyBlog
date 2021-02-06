@@ -13,7 +13,7 @@ function TagsPage(props) {
       <h1 style={{ textAlign: "center" }}>Par catégories</h1>
       <div className={style.container}>
         {data.map(tag => (
-          <Link to={`/${tag.fieldValue}`} className=" my-1 card text-center">
+          <Link key={tag} to={`/${tag.fieldValue}`} className=" my-1 card text-center"> 
             <h2>
               {tag.fieldValue} {`(${tag.totalCount})`}
             </h2>

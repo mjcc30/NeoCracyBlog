@@ -13,8 +13,9 @@ const Tags = ({ data, pageContext }) => {
       <h1 style={{ textAlign: "center", marginTop: "80px" }}>
         Topic: <span style={{ color: "#61afef" }}>{tag}</span>
       </h1>
-      {posts.map(({ node }) => (
+      {posts.map(({ node }, i) => (
         <Post
+          key={i}
           title={node.frontmatter.title}
           author={node.frontmatter.author}
           date={node.frontmatter.date}

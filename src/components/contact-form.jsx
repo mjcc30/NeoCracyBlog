@@ -1,4 +1,5 @@
 import React from "react"
+import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 class ContactForm extends React.Component {
   render() {
@@ -10,33 +11,42 @@ class ContactForm extends React.Component {
       textAlign: "center",
     }
     return (
-      <form
-        style={formStyle}
-        className="form"
-        action={this.props.action}
-        method="post"
-      >
-        <div>
-          <label>Nom complet</label>
+    <form 
+      className="form"
+      style={formStyle}
+      method="post"
+      action={this.props.action}
+    >
+      <div>
+        <label>
+          <FormattedMessage id="contact.fullname" /> 
           <input type="text" name="fullname" />
-        </div>
-        <div>
-          <label>Email</label>
-          <input type="email" name="email" />
-        </div>
-        <div>
-          <label>Message</label>
+        </label>
+      </div>
+      <div>
+        <label>
+          <FormattedMessage id="contact.email" /> 
+          <input type="email" name="_reply_to" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <FormattedMessage id="contact.message" />
           <textarea name="message" rows="5"></textarea>
+        </label>
         </div>
-        <ul style={buttonsStyle}>
-          <li>
+      <ul style={buttonsStyle}>
+        <li>
             <button type="submit" className="button special">
-              Envoyer            </button>
-          </li>
-        </ul>
-      </form>
+              <FormattedMessage id="contact.submit" />
+              Envoyer
+            </button>
+        </li>
+      </ul>
+    </form>
+        
     )
   }
 }
 
-export default ContactForm
+export default injectIntl(ContactForm)

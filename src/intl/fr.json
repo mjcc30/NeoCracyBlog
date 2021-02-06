@@ -1,0 +1,19 @@
+{
+  "titleSEO": "Acceuil",
+  "title": "Le Blog de Neocracy",
+  "author": "Maxime",
+  "description": "Présentation : Blog sur le site Neocracy",
+  "contact": {
+    "contactSEO": "Contact",
+    "title": "Nous Contacter",
+    "fullname": "Nom complet",
+    "email": "Adressse mail",
+    "message": "Message",
+    "submit": "Envoyer"
+  },
+  "notfound": {
+    "404SEO": "404: Not found",
+    "header": "NOT FOUND",
+    "description": "Vous voulez accéder à une route qui n'existe pas..."
+  }
+}
