@@ -9,13 +9,13 @@ tags: ["nodejs"]
 
 # Sommaire
 
-```toc
+```
+toc
 
 ```
 
 ## 1. Installer NVM
 
-### 1. Etape 1: TÃ©lecharger nvm
 
 Si vous Ãªtes sur linux vous aurez besoin de `curl`
 
@@ -29,22 +29,17 @@ Les commandes suivantes vont automatiquement installer nvm avec `curl`
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
-### 2. Etape 2: VÃ©rifier l'installation
-
 ```
 nvm --version
 ```
 
 ## 2. Pour installer la version LTS de Node.js
 
-### 1. Etape 1: install
-
 On lance la commande suivante
 
 ```
 nvm install --lts
 ```
-### 2. Etape 2: use
 Ensuite nous pouvons activer la version choisie
 
 ```
@@ -52,14 +47,12 @@ nvm use --lts
 ```
 
 ## 3. Pour installer la derniÃ¨re Node.js
-### 1. Etape 1: install
 
 On lance la commande suivante
 
 ```
 nvm install node
 ```
-### 2. Etape 2: use
 Ensuite nous pouvons activer la version choisis
 
 ```
