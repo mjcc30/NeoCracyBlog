@@ -7,17 +7,17 @@ author: "Maxime"
 tags: ["nodejs"]
 ---
 
-![Cover](./cover.jpgg)
-
-# Table of Contents
+# Sommaire
 
 ```toc
 
 ```
 
-## Etape 1: Télecharger nvm
+## 1. Installer NVM
 
-Si vous êtes sur linux vous aurez besoin de `curl`
+### 1. Etape 1: TÃ©lecharger nvm
+
+Si vous Ãªtes sur linux vous aurez besoin de `curl`
 
 ```
 sudo apt install curl
@@ -29,47 +29,50 @@ Les commandes suivantes vont automatiquement installer nvm avec `curl`
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
-## Etape 2: Vérifier l'installation
+### 2. Etape 2: VÃ©rifier l'installation
 
 ```
 nvm --version
 ```
 
-## Pour installer la version LTS de Node.js
+## 2. Pour installer la version LTS de Node.js
+
+### 1. Etape 1: install
 
 On lance la commande suivante
 
 ```
 nvm install --lts
 ```
-
+### 2. Etape 2: use
 Ensuite nous pouvons activer la version choisie
 
 ```
 nvm use --lts
 ```
 
-## Pour installer la dernière Node.js
+## 3. Pour installer la derniÃ¨re Node.js
+### 1. Etape 1: install
 
 On lance la commande suivante
 
 ```
 nvm install node
 ```
-
+### 2. Etape 2: use
 Ensuite nous pouvons activer la version choisis
 
 ```
 nvm use node
 ```
 
-## Export de nvm dans le shell
+## 4. Export de nvm dans le shell
 
 Si vous utilisez zsh remplacer `.bashrc par .zshrc`
 
 Les deux premieres lignes ajoutent nvm au fichier `.bashrc`
 
-La troisième ligne permet l'autocompletion avec nvm
+La troisiÃ¨me ligne permet l'autocompletion avec nvm
 
 ```
 export NVM_DIR="$HOME/.nvm"
@@ -77,8 +80,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 ```
 
-## Passer de la version LTS à la dernière version
+## 5. Passer de la version LTS Ã  la derniÃ¨re version
 
-Nous avons maintenant la dernière version de Node.js ainsi que la version LTS (long term support) d'installer.
-��,��,
+Nous avons maintenant la derniÃ¨re version de Node.js ainsi que la version LTS (long term support) d'installer.
+€ý,€ý,
 Nous pouvons changer de version en uttilisant la commande `nvm use`.
