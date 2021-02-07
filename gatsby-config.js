@@ -110,5 +110,17 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-gitalk`,
+      options: {
+        config: {
+          clientID: "43a55dce17bf4ffe2bdf",
+          clientSecret: "84a5a2537144db96858047a2002b1b7da6872c74",
+          repo: "NeoCracyBlog_comments",
+          owner: "mjcc30",
+          admin: ["mjcc30"],
+        },
+      },
+    },
   ],
 }

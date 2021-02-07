@@ -6,8 +6,9 @@ import PostPager from "../components/post-pager"
 import style from "./blog-post.module.less"
 import "katex/dist/katex.min.css"
 import "../style/prism-darcula.less"
-import loadable from "@loadable/component"
-import "@suziwen/gitalk/dist/gitalk.css"
+
+import '@suziwen/gitalk/dist/gitalk.css'
+import Gitalk from 'gatsby-plugin-gitalk'
 
 function BlogPost(props) {
   const { title, image, tags } = props.data.markdownRemark.frontmatter
@@ -15,30 +16,14 @@ function BlogPost(props) {
   const { id } = props.data.markdownRemark
 
   const comments = () => {
-    if (typeof window !== "undefined") {
-      const GitalkComponent = loadable(() =>
-        import("gitalk/dist/gitalk-component")
-      )
-
-      return (
-        <GitalkComponent
-          options={{
-            clientID: "0f760ab0fd138bf276f1",
-            clientSecret: "c838baf25cc728f9caed8fa37d870ef77d1ff0b6",
-            repo: "NeoCracyBlog_comments",
-            owner: "mjcc30",
-            admin: ["mjcc30"],
-            id: id,
-            title: title,
-            distractionFreeMode: false,
-          }}
-        />
-      )
-    } else {
-      // if window does not exist
-
-      return null
+    let gitalkConfig = {
+      id: id,
+      title: title,
+      distractionFreeMode: false,
     }
+    return (
+        <Gitalk options={gitalkConfig}/>
+      )
   }
 
   return (
