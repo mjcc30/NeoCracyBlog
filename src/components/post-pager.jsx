@@ -16,6 +16,11 @@ const PostPager = props => {
           Précedant
         </Link>
       )}
+      {numberOfPages > 1 && (
+        <div style={{ textAlign:"center"}} className="pager__location">
+          Page {humanPageNumber} sur {numberOfPages}
+        </div>
+      )}
       {next && (
         <Link
           style={{ float: "right", paddingBottom: "100px", paddingTop: "30px" }}
