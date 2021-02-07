@@ -19,7 +19,7 @@ const Header = () => {
         <div className={style.title}>
           <Link to={"/"}>
             <h4>
-              Neocracy
+              {process.env.SITE_TITLE}
             </h4>
           </Link>
         </div>
@@ -39,13 +39,13 @@ const Header = () => {
       >
         <ul>
           <li>
-            <Link to={"/articles"}>Articles</Link>
+            <Link to={process.env.SITE_ARTICLES_PATH}>Articles</Link>
           </li>
           <li>
-            <Link to={"/tags"}>Catégories</Link>
+            <Link to={process.env.SITE_TAGS_PATH}>Catégories</Link>
           </li>
           <li>
-            <Link to={"/contact"}>Contact</Link>
+            <Link to={process.env.SITE_CONTACT_PATH}>Contact</Link>
           </li>
         </ul>
       </div>

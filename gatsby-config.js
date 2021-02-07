@@ -1,17 +1,21 @@
+// Initialize dotenv
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`, // or '.env'
+})
+
 module.exports = {
   siteMetadata: {
-    title: `Neocracy`,
-    description: `Un blog sur neocrcy`,
-    author: `L'équipe de Neocracy`,
-    siteUrl: `https://www.neocracy.blog.fr`,
+    title: process.env.SITE_TITLE,
+    description: process.env.DESCRIPTION,
+    author: "Maxime Cordeiro",
+    siteUrl: process.env.SITE_URL,
   },
   plugins: [
     {
       resolve: "gatsby-plugin-verify-brave",
       options: {
-        token:
-          "8ad58b5ea5f143eb909c990d56012938371dcbccc434f51d71d62bd3df452e8e",
-        domain: "neocracy.fr",
+        token: process.env.BRAVE_TOKEN,
+        domain: process.env.DOMAIN,
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -19,14 +23,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/${process.env.SITE_IMAGES_PATH}`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/content`,
+        path: `${__dirname}/${process.env.SITE_CONTENT_PATH}`,
         name: "pages",
       },
     },
@@ -36,13 +40,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `neocracyblog`,
-        short_name: `neocracyblog`,
+        name: process.env.SITE_TITLE,
+        short_name: process.env.SITE_TITLE,
         start_url: `/`,
         background_color: `#1e2127`,
         theme_color: `#1e2127`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.webp`, // This path is relative to the root of the site.
+        icon: process.env.SITE_FAVICON_PATH, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-less`,

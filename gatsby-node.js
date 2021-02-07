@@ -4,6 +4,8 @@ const { createFilePath, createFileNode } = require(`gatsby-source-filesystem`)
 const _ = require("lodash")
 const path = require("path")
 
+console.log(process.env.NODE_ENV)
+
 // Here we are adding a slug to the allMarkdown remark query
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
