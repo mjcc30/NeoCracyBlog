@@ -12,7 +12,8 @@ const PostPager = props => {
           style={{ float: "left", paddingBottom: "100px", paddingTop: "30px" }}
           to={prev.fields.slug}
         >
-          <i class="fas fa-arrow-left" /> <FaArrowLeft /> Prev
+          <i class="fas fa-arrow-left" /> <FaArrowLeft />
+          Précedant
         </Link>
       )}
       {next && (
@@ -20,7 +21,8 @@ const PostPager = props => {
           style={{ float: "right", paddingBottom: "100px", paddingTop: "30px" }}
           to={next.fields.slug}
         >
-          Next <FaArrowRight />
+          Suivant 
+          <i class="fas fa-arrow-right" /> <FaArrowRight />
         </Link>
       )}
     </div>

@@ -62,7 +62,7 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <html lang="en" />
+      <html lang="fr" />
       <title>{site.siteMetadata.title}</title>
       <meta
         name="google-site-verification"
@@ -73,7 +73,7 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `fr`,
   meta: [],
   description: ``,
 }
