@@ -1,5 +1,5 @@
 ---
-title: PrÃ©sentation de la Todo List du site Neocracy
+title: Présentation de la Todo List du site Neocracy
 description: description
 date: "2021-02-05"
 image: "cover.webp"
