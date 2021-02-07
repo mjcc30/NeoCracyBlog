@@ -53,9 +53,15 @@ const IndexPage = ({ intl }) => {
             </a>
           </div>
           <div className={style.content}>
-            <span>
-             Ici un lien vers le depot github du site Neocracy
-            </span>
+          <span>
+            <a
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              href={"https://github.com/e-gonzalez-ipssi/NeoCracy"}
+            >
+              Ici un lien vers le depot github du site Neocracy
+            </a>
+          </span>
           </div>
         </div>
       </div>
@@ -65,14 +71,20 @@ const IndexPage = ({ intl }) => {
             <a
               target="_blank"
               rel="nofollow noopener noreferrer"
-              href={"https://github.com/e-gonzalez-ipssi/NeoCracyBlog"}
+              href={"https://github.com/mjcc30/NeoCracyBlog"}
             >
               <img src={ThisBlog} height="150px" width="225px" alt="blog" />
             </a>
           </div>
           <div className={style.content}>
             <span>
-              Ici un lien vers le depot github du blog Neocracy
+              <a
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                href={"https://github.com/mjcc30/NeoCracyBlog"}
+              >
+                Ici un lien vers le depot github du blog Neocracy
+              </a>
             </span>
           </div>
         </div>
