@@ -1,10 +1,10 @@
 ---
-title: OVH
+title: Tailwindcss
 description: description
 date: "2021-02-05"
 image: "cover.png"
 author: "Maxime"
-tags: ["ovh", "devops"]
+tags: ["tailwindcss", "frontend", "css"]
 ---
 
 # Sommaire
@@ -13,4 +13,4 @@ tags: ["ovh", "devops"]
 
 ```
 
-## 1. OVH
+## 1. Tailwindcss
