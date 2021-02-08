@@ -34,10 +34,7 @@ On ouvre VS code puis on clique sur l'icône des extensions.
 
 ![VSCODE](./img/01-Installer-Vscode/01-install-vscode-03.png)
 
-## 3. installation des plugins
-
-Nous allons maintenant installer les extensions et configurer VS code pour un meilleur confort d'utilisation.
-On ouvre VS code puis on clique sur l'icône des extensions.
+### 1. Langue fr
 
 On va installer le pack de langue fr
 [language-pack-fr](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-fr)
@@ -46,12 +43,16 @@ cette extension nécessite un redémarrage de VS code.
 
 ![VSCODE](./img/01-Installer-Vscode/01-install-vscode-04.png)
 
+### 2. Material themes
+
 On va installer un theme pour vscode
 [material-theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 On clique sur “Définir le thème de couleur”
 puis on sélectionne “Material Theme Darker High Content”
 
 [VSCODE](./img/01-Installer-Vscode/...)
+
+### 3. Material icon theme
 
 On fait la même chose pour les icones
 [material-icon-theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
@@ -60,9 +61,17 @@ puis on sélectionne “Material Icon Theme”
 
 ![VSCODE](./img/01-Installer-Vscode/01-install-vscode-06.png)
 
+### 4. Bracket pair clorizer
+
 On peut installer les extension suivantes :
 [bracket-pair-colorizer-2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+
+### 5. StandardJS
+
 [StandardJS](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
+
+### 6. Es7 react snippets
+
 [es7-react-js-snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 
 ## 4. Configuration des raccourcis
@@ -96,10 +105,3 @@ puis on entre un raccourcis, pour ma part j'utilise Alt+F
 cela permet de formater le code de tout le fichier
 
 ![VSCODE](./img/01-Installer-Vscode/01-install-vscode-09.png)
-
-Un autre moyen de formater le code
-on clique sur fichier → Préférences → Paramètres
-
-puis on entre format dans la barre de recherche
-et on coche “Format On Save”
-img
