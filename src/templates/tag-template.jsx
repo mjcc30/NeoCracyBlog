@@ -11,7 +11,7 @@ const Tags = ({ data, pageContext }) => {
   return (
     <Layout>
       <h1 style={{ textAlign: "center", marginTop: "80px" }}>
-        Topic: <span style={{ color: "#61afef" }}>{tag}</span>
+        Catégorie: <span style={{ color: "#61afef" }}>{tag}</span>
       </h1>
       {posts.map(({ node }, i) => (
         <Post
