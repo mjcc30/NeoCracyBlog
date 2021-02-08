@@ -17,51 +17,79 @@ tags: ["vscode"]
 
 [lien ici](https://code.visualstudio.com/Download)
 
-![VSCODE](./img/01-install-vscode-01.png "image de vscode")
+![VSCODE](./img/01-Installer-Vscode/01-install-vscode-01.png)
 
-## 2. Pour installer la version LTS de Node.js
+## 2. installer Vscode
 
-On lance la commande suivante
+Une fois télécharger on le fichier d'installation.
 
+N'oubliez pas de cocher les cases pour plus de facilité :
+![VSCODE](./img/... "install vscode")
+
+## 3. installation des plugins
+
+Nous allons maintenant installer les extensions et configurer VS code pour un meilleur confort d'utilisation.
+On ouvre VS code puis on clique sur l'icône des extensions.
+[VSCODE](./img/... "extension vscode")
+
+On va installer le pack de langue fr
+[language-pack-fr](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-fr)
+on entre “fr” dans la barre de recherche puis on installe.
+cette extension nécessite un redémarrage de VS code.
+[VSCODE](./img/... "vscode")
+
+On va installer un theme pour vscode
+[material-theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+On clique sur “Définir le thème de couleur”
+puis on sélectionne “Material Theme Darker High Content”
+
+[VSCODE](./img/... "vscode")
+
+On fait la même chose pour les icones
+[material-icon-theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+On clique sur “Définir le thème des icônes de fichier
+puis on sélectionne “Material Icon Theme”
+[VSCODE](./img/... "vscode")
+
+On peut installer les extension suivantes :
+[bracket-pair-colorizer-2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+[StandardJS](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
+[es7-react-js-snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+
+## 4. Configuration des raccourcis
+
+Nous allon vpir la configurtion des raccourcis dans Vscode
+
+Par exemple nous allons installer wrap-console-log
+[wrap-console-log](https://marketplace.visualstudio.com/items?itemName=midnightsyntax.vscode-wrap-console-log)
+
+On va maintenant configurer le raccourci
+on clique sur fichier → Préférences → Raccourcis clavier
+ou la commande
+Ctrl+K Ctrl+S
+[VSCODE](./img/... "vscode")
+
+On entre log dans la barre de recherche puis on modifie “Wrap down consol log”
+
+[VSCODE](./img/... "vscode")
+
+puis on entre un raccourcis, pour ma part j'utilise Ctrl+Alt+L
+Wrap down consol log” fait apparaître le méthode “console.log()” sur l'élément sélectionné en dessous de celui-ci
+
+```js
+const text = "bonjour"
+console.log(bonjour)
 ```
-nvm install --lts
-```
 
-Ensuite nous pouvons activer la version choisie
+On fait de même pour format
+puis on entre un raccourcis, pour ma part j'utilise Alt+F
+cela permet de formater le code de tout le fichier
+img
 
-```
-nvm use --lts
-```
+Un autre moyen de formater le code
+on clique sur fichier → Préférences → Paramètres
+img
 
-## 3. Pour installer la dernière Node.js
-
-On lance la commande suivante
-
-```
-nvm install node
-```
-
-Ensuite nous pouvons activer la version choisis
-
-```
-nvm use node
-```
-
-## 4. Export de nvm dans le shell
-
-Si vous utilisez zsh remplacer `.bashrc par .zshrc`
-
-Les deux premieres lignes ajoutent nvm au fichier `.bashrc`
-
-La troisième ligne permet l'autocompletion avec nvm
-
-```
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-```
-
-## 5. Passer de la version LTS à la dernière version
-
-Nous avons maintenant la dernière version de Node.js ainsi que la version LTS (long term support) d'installer.
-Nous
+puis on entre format dans la barre de recherche
+et on coche “Format On Save”
+img
