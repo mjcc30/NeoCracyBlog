@@ -84,3 +84,4 @@ Il est maintenant l'heure de tester votre API afin de relever les potentiels ér
 
 Vous pourrez aussi tester avec différents utilisateur afin de tester vos méthodes de permission.
 
+Pour tester votre API, il vous faudrais vous placer dans le dossier Neocracy\api\blog et lancer la commande : 'php -S localhost:8000 -t ./public'
