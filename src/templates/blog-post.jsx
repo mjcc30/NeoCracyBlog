@@ -3,9 +3,9 @@ import Layout from "../components/layout"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
 import PostPager from "../components/post-pager"
-import style from "./blog-post.module.less"
 import "katex/dist/katex.min.css"
-import "../style/prism-darcula.less"
+
+import style from "../style/global.css"
 
 import '@suziwen/gitalk/dist/gitalk.css'
 import Gitalk from 'gatsby-plugin-gitalk'

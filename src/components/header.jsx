@@ -4,7 +4,8 @@ import {
   FaBars,
   FaTimes,
 } from "react-icons/fa"
-import style from "./header.module.less"
+
+import style from "../style/global.css"
 
 const Header = () => {
   const [isMenuCollapsed, setMenuCollapsed] = useState(true)

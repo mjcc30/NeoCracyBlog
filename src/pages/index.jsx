@@ -4,7 +4,7 @@ import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import style from "./index.module.less"
+import style from "../style/global.css"
 
 import Github from "../images/github.png"
 import ThisBlog from "../images/this-blog.png"

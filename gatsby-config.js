@@ -49,7 +49,6 @@ module.exports = {
         icon: process.env.SITE_FAVICON_PATH, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-less`,
     {
       resolve: "gatsby-transformer-remark",
       options: {

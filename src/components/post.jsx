@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import style from "../style/global.css"
+
 import Img from "gatsby-image"
-import style from "./post.module.less"
 import { slugify } from "../../utils/Utilities"
 
 const Post = ({ title, author, date, body, slug, tags, fluid }) => {

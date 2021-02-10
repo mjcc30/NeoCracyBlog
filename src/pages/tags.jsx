@@ -2,7 +2,8 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import style from "./tags.module.less"
+
+import style from "../style/global.css"
 
 function TagsPage(props) {
   const data = props.data.allMarkdownRemark.group

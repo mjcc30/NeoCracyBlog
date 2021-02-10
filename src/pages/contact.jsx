@@ -1,11 +1,11 @@
 import React from "react"
 import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
+import style from "../style/global.css"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ContactForm from "../components/contact-form"
-import style from "./contact.module.less"
 
 function Contact({ intl }) {
   return (
