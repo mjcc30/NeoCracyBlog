@@ -35,7 +35,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-package-lock.json
 
 # Typescript v1 declaration files
 typings/
@@ -60,7 +59,6 @@ public
 .DS_Store
 
 # Yarn
-yarn.lock
 yarn-error.log
 .pnp/
 .pnp.js
